@@ -32,6 +32,28 @@ Total charge stored on both capacitors is $Q_t = Q_1 + Q_2 = C_1 V + C_2 V = (C_
 Therefore let $C_{eq} = C_1 + C_2$ then $Q_t = C_{eq} V$.
 And so capacitances in parallel add up.
 
+## Parameters
+- nominal [[Voltage]] - ???
+- losses - $I_{series resistance} / I_{capacitor}$ in [[Phasor]]
+- tolerance - maximum deviation from nominal [[Capacitance]]
+- [[Capacitance]]
+
+## Applications
+- [[Analog_Integrator|Analog Integrator]]
+- [[Analog_DIfferentiator|Analog Differentiator]]
+- [[Decoupling_Capacitor|Decoupling Capacitor]]
+- [[ACDC_Converter|AC-DC Converters]]
+- [[DCAC_Converter|DC-AC Converters]]
+- [[Energy]] storage
+- [[Analog_Signal_Processing|Analog Signal Processing]]
+
+## Types
+In general, any shape is possible, but some are more used than the others.
+
+by construction
+- [[Parallel_Plate_Capacitor|Parallel Plate Capacitor]]
+
 
 ## TODO
-- write about types
+- write about types, segregate them
+- real model

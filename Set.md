@@ -17,6 +17,10 @@ A set is collection of any objects where the order and multiplicity do not matte
 | $$\subseteq$$ | subset |
 | $$'$$ | complement |
 | $$\Delta $$ | symmetric difference |
+| $$[$$ | closed range left |
+| $$]$$ | closed range right |
+| $$($$ | open range left |
+| $$)$$ | open range right |
 
 
 | Symbol | Set |
@@ -37,6 +41,8 @@ The easiest way is to list all elements enclosed in $\{\}$, for example $\{3;14;
 When the pattern of more elements is clear, for example $\{1;2;3;\ldots\}$
 - Set Builder Notation
 Like ellipsis but with explicit formula, more flexible, for example $\{n \vert n \mod 2 = 0\}$ is a set of all even integers
+- Range
+For some [[Real_Number|Real Numbers]], shorthand notation can be used: $[a; b] = \{x | a \leq x \leq b\}$ and $(a; b) = \{x | a < x < b\}$
 - Words
 The most general but may easily lead to [[Paradox|Paradoxes]], for example `The set of all sets that do not contain themselves`
 
@@ -117,6 +123,7 @@ $$\{x \vert P(x) \land \lnot Q(x)\} \Leftrightarrow \{x \vert P(x)\} \setminus \
 in a very similar way, the laws for sets can be derived, see [[Logic#Laws|Logic Laws]].
 
 ## Venn Diagrams
+
 
 ## Books
 - *How To Prove It - A structured Approach* by Daniel J. Velleman

@@ -147,6 +147,21 @@ $$\lnot Tautology \iff Contradiction$$
 $$P \land Contradiction \iff Contradiction$$
 $$P \lor Contradiction \iff P$$
 $$\lnot Contradiction \iff Tautology$$
+
+## Conditionals
+
+### Implication
+An implication $P \Rightarrow Q$ is equivalent to $\lnot P \lor Q$, this can be verified with truth table.
+In words, if P (the premise) is false then Q does not matter - the statement is true, if P is not false then truthness depends on value of Q.
+
+A false statement can imply anything, consider the statement: if $x > 3$ then $x^2 > 9$, now assume that when premise is false we consider the conditional to be false, this is inconvenient as the original statement is not always true.
+
+Importantly $\left(P \Rightarrow Q\right) \land Q$ does **not** imply $P$ as it is possible for $P$ to be false and yet $Q$ still occurs, eg $\left(x > 3 \Rightarrow x^2 > 9\right) \land x^2 > 9$, $x$ may be $-5$ so $\lnot (x > 3)$ but $x^2 > 9.
+
+### Equivalence
+$P \Leftrightarrow Q$ is equivalent to $(P \land Q) \lor (\lnot P \land \lnot Q)$.
+In words,  whatever value P takes, Q must take the same one, and vice versa.
+
 ## Argument Forms
 
 

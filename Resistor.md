@@ -1,7 +1,8 @@
 #electronics 
 
-A resistor is an [[Electronics|Electronic]] component representing the concept of [[Resistance]], its more generalized version is [[Impedance]]. 
-Typically, resistor refers to [[Linearity|Linear]] resistor obeying [[Ohms_Law|Ohm's Law]]  $V = IR$.
+A resistor is a passive (consumes power) two [[Electronic_Device#Terminal|Terminal]] [[Electronic_Device|Electronic Device]] representing the concept of [[Resistance]], of which the more generalized version is [[Impedance]]. 
+Typically, "resistor" refers to [[Linearity|Linear]] resistor obeying [[Ohms_Law|Ohm's Law]]  $V = IR$.
+A resistor primary purpose is to limit the [[Current]] or to dissipate [[Power]] (for example in [[Heat|Heaters]])
 
 ## Symbols
 <div class="fig">
@@ -28,5 +29,43 @@ So $I_1 = \frac{V}{R_1}$ and $I_2 = \frac{V}{R_2}$
 Total current is then $I = I_1 + I_2 = \frac{V}{R_1} + \frac{V}{R_2}$
 And so $V = \frac{1}{\frac{1}{R_1} + \frac{1}{R_2}}I$ so $\frac{1}{R_{eq}} = \frac{1}{R_1} + \frac{1}{R_2}$.
 
+## Parameters
+- nominal resistance - specified value
+- nominal [[Power]] - the power that can be dissipated as [[Heat]] without damaging the resistor
+- acceptable [[Voltage]] - a range where resistor works
+- [[Tolerance]] - possible deviation from nominal value
+- [[Noise]] coefficient - ???
+- physical size
+- [[Temperature]] Coefficient of Resistance (TCR) 
+
+
+## Marking
+- Color code
+- Letter-Number code
+- Number code
+
+## Standardized Values
+
+
+## Types
+### Function
+- constant value
+- regulated value - [[Potentiometer]]
+- semiconductor
+### Characteristic
+- [[Linearity|Linear]]
+- non-Linear
+## Construction
+- [[Wired_Resistor|Wired Resistor]]
+- [[Layered_Resistor|Layered Resistor]]
+- [[Bulk_Resistor|Bulk Resistor]]
+
+## Real Resistor Model
+
 ## TODO
 write about types
+marking example
+example in each function
+describe standardized values
+schematic of real resistor
+application section
