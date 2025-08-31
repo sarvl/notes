@@ -1,6 +1,6 @@
 #electronics #circuit 
 
-A Capacitor is an [[Electronics|Electronic]] component representing the concept of [[Capacitance]].
+A Capacitor is a two terminal [[Electronics|Electronic]] component representing the concept of [[Capacitance]].
 A capacitor obeys the equation $I = C \frac{dV}{dt}$ or equivalently $Q = CV$
 
 ## Symbols

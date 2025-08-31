@@ -14,5 +14,8 @@ To see why,
 Any high pass filter essentially performs [[Differentiation]] on the signal and so can be implemented with [[Analog_Differentiator]].
 To see why, 
 
+## Signal Generation
+
 ## TODO
 - verify connection between LPF and integration, and between HPF and  differentiation
+- look at slides ED2p12-15
