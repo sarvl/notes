@@ -41,4 +41,4 @@ Significant part of the problem is teachers who are neither actively creating ma
 
 #book_htpi_dv 
 #book_a-mathematicians-lament_PL
-#papers_the-unreasonable-effectiveness-of-mathemathics-in-the-natural-sciences_ew
+#paper_the-unreasonable-effectiveness-of-mathemathics-in-the-natural-sciences_ew
