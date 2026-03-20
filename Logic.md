@@ -100,7 +100,7 @@ equivalent.
 
 ## Laws
 All of the laws below can be proven via [[#Truth Tables]]
-Given the laws below, statements can be simplified like [[Alebra|Algebraic]] expressions, in fact they lead to [[Boolean_Algebra|Boolean Algebra]]. Another byproduct are [[Set#Laws|Set Laws]]
+Given the laws below, statements can be simplified like [[Algebra|Algebraic]] expressions, in fact they lead to [[Boolean_Algebra|Boolean Algebra]]. Another byproduct are [[Set#Laws|Set Laws]]
 
 ### De Morgan's Laws
 $$\lnot (P \land Q) \iff \lnot P \lor \lnot Q$$

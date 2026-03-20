@@ -9,7 +9,7 @@ Most common types of devices are
 - [[Graphical_Processing_Unit|Graphical Processing Units]]
 
 The organization and implementation often mean
-- [[Digital_Circuit|Digital Circuit]] level implementation
+- [[Digital_Electronics|Digital Circuit]] level implementation
 - [[Interconnect|Interconnects]]
 
 ## Main Ideas
@@ -29,6 +29,17 @@ The organization and implementation often mean
 ## Structure of a Computer
 ![[Computer_Architecture_Computer-Structure.png]]
 
+
+## Organization
+The main types of organization are 
+- Stored Program Computer
+  Data and Program are stored in the same region of [[Memory]] 
+  Lets user easily reprogram the machine
+- Harvard Architecture
+  Data and Program are stored separately
+  Is much faster and simpler at hardware level
+
+Nowadays, a mix is used, internally the machine is implemented as Harvard Architecture but the interface from [[Memory_Controller|Memory Controller]] works like Stored Program Computer.
 ## TODO
 - more examples
 

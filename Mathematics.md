@@ -16,7 +16,7 @@ Many math concepts appear in seemingly unrelated fields, consider for example $\
 ## Application in Natural Sciences 
 Despite its abstract definition and concepts, mathematics is surprisingly useful in natural sciences - especially [[Physics]]. We do not really understand why, but its precision, accuracy, and commonality in doing so suggest it is not just an accident and it is not just not our bias towards it. Moreover, laws formulated in language of mathematics often predict more than we put in them - like predicting gravitational waves by [[General_Relativity|General Relativity]].
 
-[[Complex_Number||Complex Numbers]] are a great example of this, nothing in our experience could possibly suggest that $\sqrt{-1}$ actually exists, yet it not only exists, it is central component in [[Quantum_Mechanics|Quantum Mechanics]], mainly due to its appearance in [[Wave_Mechanics|Wave Mechanics]] from [[Differential_Equation|Differential Equations]].
+[[Complex_Number|Complex Numbers]] are a great example of this, nothing in our experience could possibly suggest that $\sqrt{-1}$ actually exists, yet it not only exists, it is central component in [[Quantum_Mechanics|Quantum Mechanics]], mainly due to its appearance in [[Wave_Mechanics|Wave Mechanics]] from [[Differential_Equation|Differential Equations]].
 
 ## Education
 The state of math education is unfortunately poor if not nonexistent, most of the curriculum is about *notation* and *arithmetic* and not about actually *doing* any sort of *math*.  A great  analogy is set up by Paul Lockhart - imagine music education where the focus is on standard notation used by musicians instead of actually playing any instruments or learning any songs. 
@@ -39,6 +39,7 @@ Significant part of the problem is teachers who are neither actively creating ma
 ## Papers
 - *The Unreasonable Effectiveness of Mathematics in the Natural Sciences* by Eugene Wigner
 
-#book_htpi_dv 
-#book_a-mathematicians-lament_PL
+#book_htpi_dv
+#book_miedzy-duchem-a-prawda-posredniczy-matematyka_HS
+#book_a-mathematicians-lament_pl
 #paper_the-unreasonable-effectiveness-of-mathemathics-in-the-natural-sciences_ew

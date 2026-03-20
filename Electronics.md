@@ -15,7 +15,7 @@ Electronics is a discipline applying [[Physics]] to manipulate [[Electron|Electr
 
 ## Description
 Electronic devices can be described with
-- [[Equation]] eg $I = V/R$
+- [[Equation]] eg $I = V/R$ ([[Ohms_Law]])
 - [[Graphical]] 
 	- I-V; V-I; V-V; I-I - general characteristic
 	- [[Time]] domain - a response to given stimuli
