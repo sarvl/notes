@@ -32,6 +32,7 @@ Significant part of the problem is teachers who are neither actively creating ma
 ## TODO
 - check the definition
 - cool examples
+- back up education claims ; do some more detailed research
 
 ## Books
 -  *How To Prove It - A structured Approach* by Daniel J. Velleman

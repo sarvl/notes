@@ -40,6 +40,11 @@ The main types of organization are
   Is much faster and simpler at hardware level
 
 Nowadays, a mix is used, internally the machine is implemented as Harvard Architecture but the interface from [[Memory_Controller|Memory Controller]] works like Stored Program Computer.
+
+## Design
+
+
+
 ## TODO
 - more examples
 

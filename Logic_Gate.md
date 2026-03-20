@@ -1,6 +1,6 @@
 #electronics #digital
 
-A logic gate is an implementation of [[Boolean_Algebra|Boolean Algebra]] performing a  given [[Logic]] operation. These gates can then be combined to form more elaborate [[Digital_Circuit|Digital Circuits]].
+A logic gate is an implementation of [[Boolean_Algebra|Boolean Algebra]] performing a  given [[Logic]] operation. These gates can then be combined to form more elaborate [[Digital_Electronics|Digital Circuits]].
 
 
 ## AND
@@ -36,12 +36,12 @@ A logic gate is an implementation of [[Boolean_Algebra|Boolean Algebra]] perform
 | 1 | 1 | 0 |
 
 ## XOR
-| A | B | X |
-|:---:| :---: | :---: |
-| 0 | 0 | 0 |
-| 0 | 1 | 1 |
-| 1 | 0 | 1 |
-| 1 | 1 | 0 |
+|  A  |  B  |  X  |
+| :-: | :-: | :-: |
+|  0  |  0  |  0  |
+|  0  |  1  |  1  |
+|  1  |  0  |  1  |
+|  1  |  1  |  0  |
 
 ## NXOR
 | A | B | X |
@@ -58,10 +58,15 @@ A logic gate is an implementation of [[Boolean_Algebra|Boolean Algebra]] perform
 | 1 | 0 |
 
 ## BUFFER
-| A | X |
-|:---:| :---: |
-| 0 | 0 |
-| 1 | 1 |
+|  A  |  X  |
+| :-: | :-: |
+|  0  |  0  |
+|  1  |  1  |
+## Lectures
+- CS61C - UCB 
+
+#lecture_cs61c_ucb
 
 ## TODO
 - symbols
+

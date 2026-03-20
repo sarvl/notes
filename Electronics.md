@@ -4,12 +4,12 @@ Electronics is a discipline applying [[Physics]] to manipulate [[Electron|Electr
 
 
 ## Types
-1. Passive - consume [[Power]] eg
+1. Passive - do not add [[Power]] to a signal, eg
 	- [[Resistor]]
 	- [[Capacitor]]
 	- [[Inductor]]
 	- [[Diode]]
-2. Active - produce [[Power]] (or more precisely, add power to a [[Signal]]) eg 
+2. Active - add [[Power]] to a [[Signal]], eg 
 	- [[Transistor]]
 
 
@@ -22,6 +22,6 @@ Electronic devices can be described with
 	- [[Frequency]] domain - parameter change as input frequency changes
 - Catalog - a set of parameters 
 
-
 ## TODO
-more examples
+- more examples
+- history, something about vacuum tubes maybe

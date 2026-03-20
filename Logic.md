@@ -171,7 +171,7 @@ In words,  whatever value P takes, Q must take the same one, and vice versa.
 
 
 ## Applications
-- [[Logic_Gate|Logic Gate]] - direct implementation of logic, a core component of all [[Digital_Circuit|Digital Circuits]]
+- [[Logic_Gate|Logic Gate]] - direct implementation of logic, a core component of all [[Digital_Electronics|Digital Circuits]]
 
 
 ## Books
