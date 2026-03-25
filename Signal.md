@@ -1,8 +1,8 @@
-#signal #networking 
+#signal #networking #telecom 
 
 A signal is any time changing quantity conveying information. Most often used in the context of [[Electronics|Electronic]] signal as time changing [[Voltage]].
 
-Converting signals from digital to analog domain uses [[Analog_Digital_Converter|Analog Digital Converter]] or [[Digital_Analog_Converter|Digital Analog Converter]], both are limited by [[Sampling_Theorem|Sampling Theorem]]. [[Sampling_Theorem|]]
+Converting signals from digital to analog domain uses [[Analog_Digital_Converter|Analog Digital Converter]] or [[Digital_Analog_Converter|Digital Analog Converter]], both are limited by [[Sampling|Sampling Theorem]]. [[Sampling]]
 
 
 ## Signal Transmission Model

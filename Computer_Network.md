@@ -1,8 +1,6 @@
-#networking
-
+#telecom
 
 Computer Network is any group of computers that communicates together. Within such network, computers are organized by some addresses needed to identify particular hosts.
-
 
 ## Reference Models
 Division into such models simplifies implementation of networking devices, each layer has an abstraction of directly talking to another device in the same layer, despite actual communication happening on top of much lower level protocols. The act of passing data from higher to lower level and adding appropriate headers is called **encapsulation**.
@@ -40,7 +38,7 @@ Division into such models simplifies implementation of networking devices, each 
 1. Link (Physical + Data Link)
    Hardware addressing, media access, [[Error_Detection_And_Correction|Error Detection and Correction]]
    [[Binary|bits]] and frames
-   [[Switch]], Bridge (essentially 2 port switch), Network Interface Card, Wireless Access Point
+   [[Switch]], [[Bridge]], [[Hub]], Network Interface Card, Wireless Access Point
    [[Ethernet]], [[WiFi]]
    
 	Sub-layers
@@ -74,67 +72,13 @@ Division into such models simplifies implementation of networking devices, each 
 ## Range
 - LAN
   Local Area Network
+- MAN
+  Metropolitan Area Network
 - WAN
   Wide Area Network
 
-## Design Considerations
-- Capacity planning
-- Quality of Service: Traffic prioritization
-- Reliability and redundancy: fail over, replication
-- Security:  [[Cryptography|Encryption]], authentication, secure management
-- Scalability: Addressing, routing, distributed systems
-
-
-## Transmission
-*Duplexing* is the ability to talk and listen simultaneously. 
-
-- Simplex
-  Only in one direction 
-- Half-duplex
-  In two directions, but only one at a time
-- Full-duplex
-  In two directions, simultaneously
-
-*Frequency Division Duplexing* (FDD) is using separate channels for duplexing.
-*Time Division Duplexing* (TDD) is using separate time frames for duplexing.
-
-
-- Serial
-  sending bits one by one
-  long distance
-- Parallel
-  send group of bits 
-  short distance
-
-- Baseband
-  Digital pulses directly on medium
-- Broadband
-  Signals modulate the carrier
-
-
-- Synchronous
-  Bits in data stream transferred in sync with a clock
-- Asynchronous
-  Bits in stream transferred at random intervals
-  Start and end bit
-- Isosynchronous
-  Async blocks but within blocks certain bandwidth required
-
-## Structures
-- Point-to-Point
-  Each connection has separate link
-  Devices can receive/transmit simulaneously
-- Multi-point (Multi-Access, Broadcast)
-  Multiple nodes share a transmission medium
-  Devices can receive but not transmit simultaneously 
-- Polling
-  Master station polls devices and determines who transmits/receives
-- Selection
-  When master receives data, it informs destination stations that there is data for them
-
 ## TODO
-- history 
-- links to reference models
-- topologies
 - communication example
 - split into other documents
+- reorganize
+- Images

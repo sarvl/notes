@@ -1,4 +1,4 @@
-#networking 
+#telecom  
 
 IP Addresses are used in [[Computer_Network#Reference Models#OSI|Network Layer]] as a way to identify hosts.
 

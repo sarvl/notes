@@ -1,4 +1,4 @@
-#networking 
+#telecom  
 
 A switch is [[Computer_Network#TCP/IP|Link]] level device operating on [[Ethernet]]. Its main purpose is to *switch* where *frames* go, to redirect them to the proper destination. A switch may operate in [[Computer_Network#TCP/IP|Network]] Layer, combining features of [[Router]] and typical [[Switch]], but generally without access to [[Computer_Network#Range|Wan]]
 
