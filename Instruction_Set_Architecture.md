@@ -24,6 +24,9 @@ The simplest abstraction for instruction execution is:
 4. Write back results
 By repeating this procedure, entire programs can be executed.
 
+## Instruction Specification
+Instructions can be specified with Register Transfer Language, which is very similar to [[Hardware_Description_Language|Hardware Description Languages]]. 
+
 ## Examples
 - [[x86]]
 - [[ARM]]
