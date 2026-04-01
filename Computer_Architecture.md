@@ -1,26 +1,31 @@
 #computer_architecture 
 
-Computer Architecture focuses on organization and, to some extent, implementation of various [[Processor|Processors]] designed to process data in a specific way. 
+Computer Architecture focuses on organization and, to some extent, implementation of various [[Processor|Processors]] designed to process data in a specific way.  It is a study of how to most efficiently reach certain design goals - for example increasing throughput of [[Graphical_Processing_Unit|GPUs]].
 
-Everything is a number, such number is composed out of individual [[Binary|Bits]]. 
-
-Most common types of devices are
+Example objects of interest include
 - [[Central_Processing_Unit|Central Processing Units]]
 - [[Graphical_Processing_Unit|Graphical Processing Units]]
+- [[Digital_Signal_Processing|Digital Sound Processors]]
+
+Everything is a number, such number is composed out of individual [[Binary|Bits]]. 
 
 The organization and implementation often mean
 - [[Digital_Electronics|Digital Circuit]] level implementation
 - [[Interconnect|Interconnects]]
 
+Ultimately, the topic is very broad with many different goals and requirements, and so this document is abstract in nature. Many links are provided for more detailed topics. 
+
 ## Main Ideas
 - Abstraction
   Create a specific interface such that higher level constructs can be created regardless of implementation, the prime example is [[Instruction_Set_Architecture|Instruction Set Architecture]]
 - Moore's Law
-  The most important trend in the development of computers, significant increase in the number of [[Transistor|Transistors]] available
+  The most important trend in the development of computers, significant increase in the number of [[Transistor|Transistors]] available, despite numerous advancement in [[Transistor#Fabrication|Fabrication]] technology the trend has been slowing down
 - [[Locality]]
   Data in similar space tends to be accessed in similar time
 - [[Parallelism]]
   A lot of stuff can be done at once 
+- [[Speculative_Execution|Speculation]]
+  Speculating on results allows to break through various performance limits
 - [[Performance_Measurement|Performance Measurement]]
   The only way to improve is to know what is wrong
 - [[Redundancy]]
@@ -29,40 +34,45 @@ The organization and implementation often mean
 ## Structure of a Computer
 ![[Computer_Architecture_Computer-Structure.png]]
 
-**Control** is the unit responsible for directing how the computer works, **Datapath** is the unit that actually executes. In modern processors Control generally dominates datapath. 
+**Control** is the component responsible for directing how the computer works, **Datapath** is the component that actually executes. In modern CPUs Control generally dominates datapath. 
 
-An instruction generally has 5 stages of execution
-- Fetch 
-  Reads bits from [[Memory]]
-  increments [[Instruction_Pointer|Instruction Pointer]]
-- Decode
-  Figure out control signal
-  Read data from [[Register_File|Register File]]
-- Arithmetic
-  Arithmetic and Logic Operations with [[Arithmetic_Logic_Unit|ALU]]
-  Calculate address
-- Memory
-  Load and Store data from and to [[Memory]]
-  Thanks to [[Cache]] this stage is fast
-- Writeback
-  Save the results to [[Register_File|Register File]]
-This naturally leads to [[Classic_Risc_Pipeline|Classic RISC Pipeline]]. 
-
-Even though not all simple instructions use all these stages, some (like Load) do, and so it is necessary to make hardware that supports all of them.
-
+Instruction is a basic way of interacting within any processor, it is defined by [[Instruction_Set_Architecture|ISA]]. Generally all instructions can conceptually be split into 4 execution stages. These stages can be then used to either create [[Central_Processing_Unit#Multicycle|Multicycle]] design or  to [[Pipelining|Pipeline]] it.
+1. Fetch 
+   Read [[Binary|Bits]] from [[Memory]], change [[Instruction_Pointer|Instruction Pointer]]
+2. Decode 
+   Figure out what has to be done
+3. Execute
+   Do what needs to be done 
+   [[Arithmetic_Logic_Unit|ALU]], [[Floating_Point_Unit|FPU]], [[Memory]]
+4. Writeback
+   Save results from computation, usually into [[Register_File|Register File]]
 ## Organization
-The main types of organization are 
-- Stored Program Computer
-  Data and Program are stored in the same region of [[Memory]] 
-  Lets user easily reprogram the machine
-- Harvard Architecture
-  Data and Program are stored separately
-  Is much faster and simpler at hardware level
+It is in general impossible to simply classify all different kinds of processors there are, different categories exist based on different goals.
 
-Nowadays, a mix is used, internally the machine is implemented as Harvard Architecture but the interface from [[Memory_Controller|Memory Controller]] works like Stored Program Computer.
+### RISC vs CISC
+This classification is obsolete and was never properly defined in the first place, refer to [[RISC]] for detailed criticism.
+
+### Program Location
+- **Stored Program**
+  Data and program are stored in the same kind of [[Memory]] and can be used interchangeably 
+  This allows for machine reprogramming on the fly
+- **Harvard**
+  Data and program are stored in separate memories, usually program is in some kind of [[ROM]]
+  Allows for much faster and simpler execution
+- **Mixed**
+  Nowadays, virtually all [[Instruction_Set_Architecture|ISAs]] are Stored Program, but high performance hardware have separate [[Cache|Caches]] for data and instructions
+  Combines perks of both with minimal complications
 
 ## Design
-Small units can be designed directly with [[Boolean_Algebra|Boolean Algebra]] minimization techniques, but this quickly gets out of hand. To design more complex devices, heavily rely on abstraction, standard functional units are employed
+Design can be somewhat separated into two parts - [[Instruction_Set_Architecture|ISA]] and implementation. However one cannot be properly created without some general view of  the other.
+
+### General Considerations
+
+### ISA
+
+### Implementation
+
+Small units can be designed directly with [[Boolean_Algebra|Boolean Algebra]] minimization techniques, but this quickly gets out of hand. Designing more complex devices requires using standard functional units:
 - [[Multiplexer]]
 - [[Arithmetic_Logic_Unit|Arithmetic and Logic Unit]]
 - [[Binary_Adder|Adder/Subtractor]]
@@ -85,8 +95,8 @@ Small units can be designed directly with [[Boolean_Algebra|Boolean Algebra]] mi
 
 ## TODO
 - more examples
-- generalize to remove RISC bias
 - some specific design process? could take one from CS61C L12 but seems way too specific
+-  better design specifiation
 
 
 ## Lectures

@@ -2,7 +2,7 @@
 
 A branch of [[Electronics]] operating on discrete values, usually via [[Boolean_Algebra|Boolean Algebra]], a concrete implementation of [[Computer_Architecture|Computer Architecture]].
 
-**Digital** means that the allowed voltage levels are quantized, in contrast to [[Analog_Electronics|Analog Electronics]] which operates on continuous range of values.
+**Digital** means that the allowed [[Voltage]] levels are quantized, in contrast to [[Analog_Electronics|Analog Electronics]] which operates on continuous range of values.
 
 Two types are **Synchronous** and **Asynchronous**, the latter circuit is always a pure [[Function]] of inputs, the former also has some internal state and can be realized as a [[State_Machine|State Machine]]. The main advantage of async circuit is its speed - it always operates not slower than synchronous equivalent. The main advantages of sync circuit is resistance to [[Noise]] and simpler design by introducing [[Clock]]. 
 
