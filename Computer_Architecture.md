@@ -11,7 +11,7 @@ Everything is a number, such number is composed out of individual [[Binary|Bits]
 
 The organization and implementation often mean
 - [[Digital_Electronics|Digital Circuit]] level implementation
-- [[Interconnect|Interconnects]]
+- [[Network|Interconnects]]
 
 Ultimately, the topic is very broad with many different goals and requirements, and so this document is abstract in nature. Many links are provided for more detailed topics. 
 
@@ -101,5 +101,7 @@ Small units can be designed directly with [[Boolean_Algebra|Boolean Algebra]] mi
 
 ## Lectures
 - CS61C - UCB 
+- Onur Mutlu - ACA
 
-#lecture_cs61c_ucb
+
+#lecture_om_ACA #lecture_cs61c_ucb
