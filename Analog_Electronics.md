@@ -14,3 +14,8 @@ Examples:
 - [[Power_Amplifier|Power Amplifier]]
 - [[Power_Supply|Power Supply]]
 - [[Voltage_Regulator|Voltage Regulator]]
+
+
+## Lectures
+- *Electronics 2* by Behzad Razavi
+#lecture_electronics_br

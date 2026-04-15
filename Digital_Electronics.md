@@ -71,6 +71,8 @@ As all circuits are physical things, they take time to propagate data from input
 
 #lecture_cs61c_ucb
 
+%%
 ## TODO
 - threshold voltages
 - calculation of maximum frequency
+- dynamic vs static logic

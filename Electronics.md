@@ -1,17 +1,17 @@
 #electronics 
 
-Electronics is a discipline of applying [[Physics]] to manipulate [[Electron|Electrons]], specifically via [[Semiconductor_Device|Semiconductor Devices]] - [[Diode]] and [[Transistor]].
+Electronics is a discipline applying [[Physics]] to manipulate [[Electron|Electrons]], specifically via [[Semiconductor_Device|Semiconductor Devices]] - [[Diode]] and [[Transistor]].
 
-Electronics can be divided into [[Digital_Electronics|Digital]] and [[Analog_Electronics|Analog]] if it the allowed [[Voltage]] is quantized or not, respectively.
 
-## Device Types
-1. Passive - do not add [[Power]] to a [[Signal]], eg
+## Types
+1. Passive - do not add [[Power]] to a signal, eg
 	- [[Resistor]]
 	- [[Capacitor]]
 	- [[Inductor]]
 	- [[Diode]]
 2. Active - add [[Power]] to a [[Signal]], eg 
 	- [[Transistor]]
+
 
 ## Description
 Electronic devices can be described with
@@ -22,7 +22,10 @@ Electronic devices can be described with
 	- [[Frequency]] domain - parameter change as input frequency changes
 - Catalog - a set of parameters 
 
+## Lectures
+- *Electronics 2* by Behzad Razavi
+#lecture_electronics_br
 
-%%
-# TODO
-- the types are very limited
+## TODO
+- more examples
+- history, something about vacuum tubes maybe

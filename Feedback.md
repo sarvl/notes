@@ -1,5 +1,4 @@
 #electronics #signal 
-
 System with a feedback is any system that adjusts itself based on its output. Lack of feedback leads to poorly controlled [[Electrical_Circuit|Circuits]] and [[System|Systems]].
 
 ## Positive

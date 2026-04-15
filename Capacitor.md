@@ -50,10 +50,47 @@ And so capacitances in parallel add up.
 ## Types
 In general, any shape is possible, but some are more used than the others.
 
-by construction
+by Construction
 - [[Parallel_Plate_Capacitor|Parallel Plate Capacitor]]
 
 
+by Material
+- Electrolytic
+  Aluminium foil with liquid electrolyte
+  Generally only for large capacitance
+  
+  Can explode, degrade over time, polarized (can be connected back to back to remove this polarization)
+- Tantalum
+  
+  Reliable within spec, low leakage
+  Expensive, flammable
+- Film 
+  
+  High capacitance
+- Mains
+  
+  For power supplies interacting with mains power.
+- Ceramic
+  Ubiquitous, cheap, wide range of parameters 
+
+  Can act as a microphone and speaker
+
+## Frequency Response
+
+![[Capacitor_Impedance-Frequency.png]]
+
+## Transient Response
+![[Capacitor_Transient.png]]
+
+## Videos
+- [EEVblog 33 - Capacitor Tutorial p1](https://www.youtube.com/watch?v=xlvqUts9H9c)
+- [EEVblog 33 - Capacitor Tutorial p2](https://www.youtube.com/watch?v=TDDoi70cxw0)
+- [EEVblog 486 - Does Current Flow Through Capacitor](https://www.youtube.com/watch?v=ppWBwZS4e7A)
+
+#video_eevblog
+
+%%
 ## TODO
 - write about types, segregate them
 - real model
+- check ceramic capacitor audio generation
