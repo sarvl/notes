@@ -82,10 +82,31 @@ by Material
 ## Transient Response
 ![[Capacitor_Transient.png]]
 
+## Power Applications
+Smaller capacitors in parallel are often needed  to meet specs.
+- Capacitance
+  Minimizing ripple voltage
+- Physical Size
+  Bigger capacitors are generally taller
+- ESR
+  Capacitors in parallel minimize ESR
+- Cost
+  Smaller capacitors are cheaper
+- BOM reuse
+  Somewhere else in the design smaller caps are more likely to be already used
+- Product config
+- Longer life
+  Less heating up 
+- Redundancy
+  If one fails the product still works
+- Peak currents
+  Less peak currents requirements, each capacitor can have separate trace
+
 ## Videos
 - [EEVblog 33 - Capacitor Tutorial p1](https://www.youtube.com/watch?v=xlvqUts9H9c)
 - [EEVblog 33 - Capacitor Tutorial p2](https://www.youtube.com/watch?v=TDDoi70cxw0)
 - [EEVblog 486 - Does Current Flow Through Capacitor](https://www.youtube.com/watch?v=ppWBwZS4e7A)
+- [EEVblog 742 - Why Electrolytic Capacitors are Connected in Parallel](https://www.youtube.com/watch?v=wwANKw36Mjw)
 
 #video_eevblog
 
