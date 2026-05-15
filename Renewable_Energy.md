@@ -17,6 +17,7 @@ Most of the panel is composed out of glass and aluminum, all are already easily 
 
 ## Videos
 - [You are being misled about renewable energy technology](https://www.youtube.com/watch?v=KtQ9nt2ZeGM)
+- [Some  following up, and why I won't push you towards rooftop solar](https://www.youtube.com/watch?v=C4cNnVK412U)
 
 #video_technology-connections
 
