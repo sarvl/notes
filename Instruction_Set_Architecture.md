@@ -1,4 +1,4 @@
-#computer_architecture 
+#computer_architecture #isa
 
 ISA specifies the interface between hardware and software. This includes: set of instructions, [[Memory_Model|Memory Models]], [[IO|IO Communication]].
 
@@ -27,6 +27,11 @@ By repeating this procedure, entire programs can be executed.
 ## Instruction Specification
 Instructions can be specified with Register Transfer Language, which is very similar to [[Hardware_Description_Language|Hardware Description Languages]]. 
 
+## Performance Effects
+It is hard to properly benchmark the effect of ISA on execution time, it requires properly separating ISA dependent features from ISA independent features. Sometimes it is not clear what is ISA dependent feature and what is not, as different ISAs allow for different efficiency of different implementations.
+
+Even with that eliminated, one has to also eliminate the effects of compiler and general computing environment.
+
 ## Examples
 - [[x86]]
 - [[ARM]]
@@ -35,11 +40,18 @@ Instructions can be specified with Register Transfer Language, which is very sim
 - [[PowerPC]]
 - [[IA64]]
 
-## TODO
-- prettify 
-- add more history
 
 ## Lectures
 - CS61C - UCB 
 
 #lecture_cs61c_ucb
+
+## Papers
+- *Power  Struggles: Revisiting the RISC vs CISC debate on Contemporary ARM and x86 Architectures* by Emily Blem, Jaikrishnan Menon, and Karthikeyan Sankaralingam
+
+#paper_power-struggles-revisiting-the-risc-vs-cisc-debate-on-contemporary-arm-and-x86-architectures_eb-jm-ks
+
+%%
+## TODO
+- prettify 
+- add more history
