@@ -10,3 +10,7 @@ Computer storage can be divided into hierarchy
   high capacity data archives, non volatile, slow
 
 
+
+Storage can be classified by method of attachement
+- Direct - directly connected to computer
+- Network - over network
