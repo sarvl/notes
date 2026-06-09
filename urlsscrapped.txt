@@ -1,0 +1,4 @@
+https://serverfault.com/questions/544619/static-ip-vs-dhcp-reservation
+https://raspberrypi.stackexchange.com/questions/143467/how-to-setup-a-headless-raspberry-pi-for-use-with-ssh-now-that-adding-boot-ssh
+https://electronics.stackexchange.com/questions/530028/pcb-design-when-having-a-power-plane-should-i-only-be-doing-vias-or-also-route
+https://serverfault.com/questions/420877/ive-inherited-a-rats-nest-of-cabling-what-now?rq=1

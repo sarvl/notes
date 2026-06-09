@@ -17,6 +17,11 @@
  - Pull back copper from the edges
  - Watch out for number of different components
  - Add connectors for testing
+ - When using planes for power/ground, avoid directly routing tracks unless (or)
+	 - from decoupling capacitor to power pin
+	 - very noise sensitive signal (measured over eg shunt resistor) sent to differential amplifier, also keep ground track short
+	 - very large currents
+	 - power supplies switching currents
 
 ## Videos
 - [EEVblog 127 - PCB Design For Manufacture Tutorial - Part 1](https://www.youtube.com/watch?v=VXE_dh38HjU)
