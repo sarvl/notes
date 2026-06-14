@@ -169,6 +169,14 @@ A daemon is a kind of process that is, by design, long lived and runs in the bac
 ## Signals
 Signals are asynchronous method of informing about events. Sometimes called software interrupts.
 
+## Memory
+Linux does seem to have pretty poor memory management while close to system limit. 
+This can be fixed by setting `vm/min_free_kbytes`
+```sh
+echo "vm.min_free_kbytes=262144" >> /etc/sysctl.conf  
+sysctl -p  
+```
+
 %%
 
 ## TODO

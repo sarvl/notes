@@ -1,4 +1,14 @@
 https://serverfault.com/questions/544619/static-ip-vs-dhcp-reservation
+https://www.reddit.com/r/sysadmin/comments/b2hr5c/linuxs_seemingly_poor_memory_management/
 https://raspberrypi.stackexchange.com/questions/143467/how-to-setup-a-headless-raspberry-pi-for-use-with-ssh-now-that-adding-boot-ssh
 https://electronics.stackexchange.com/questions/530028/pcb-design-when-having-a-power-plane-should-i-only-be-doing-vias-or-also-route
 https://serverfault.com/questions/420877/ive-inherited-a-rats-nest-of-cabling-what-now?rq=1
+
+https://linuxvox.com/blog/vm-min-free-kbytes-why-keep-minimum-reserved-memory/
+https://cepr.org/voxeu/columns/climate-change-and-cost-inaction
+https://skepticalscience.com/global-warming-positives-negatives-advanced.htm
+https://www.realclimate.org/index.php/archives/2007/11/six-degrees/
+https://skeptics.stackexchange.com/questions/13789/is-avoiding-global-warming-by-preventing-co%E2%82%82-emissions-far-too-expensive-compare
+https://skeptics.stackexchange.com/questions/7499/could-global-warming-be-good-for-life?rq=1
+https://skeptics.stackexchange.com/questions/8854/is-global-warming-irreversible
+https://en.wikipedia.org/wiki/Economic_analysis_of_climate_change

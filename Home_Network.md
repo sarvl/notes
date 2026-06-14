@@ -1,6 +1,6 @@
 #networking 
 
-
+A very interesting link I have found is: https://wiki.futo.org/index.php/Introduction_to_a_Self_Managed_Life:_a_13_hour_%26_28_minute_presentation_by_FUTO_software. I did not yet have time to go through this.
 ## Setting IP 
 Usually it makes sense to have certain services assigned to static addresses. This can be done via either static [[IP_Address|IP]] on PC or via [[DHCP]] reservation. Long term it is better to use DHCP reservation as that provides central system that is easier to modify and maintain, but for quick fixes static IP is much faster to do.
 
@@ -50,8 +50,11 @@ sudo apt install jellyfin
 
 The rest can be easily followed with GUI
 ### Arr
-Section empty until I do something with it 
+Section empty until I do something with it, currently only jellyfin with manual downloading is employed
 
+links I have gathered:
+- https://www.reddit.com/r/selfhosted/comments/13m6ypr/the_visual_flow_of_the_arr_suite/
+![[Home_Network_Arr-Suite.png]]
 
 
 ## Monitoring
@@ -76,14 +79,14 @@ It is possible to use pi hole as DNS server, though I have not yet found a parti
 
 #### DHCP
 It is possible to use pi hole as DHCP server, though I have found my router to be more reliable than RPI and so I use my router directly for that.
-
-
 ## NAS
 Section empty until I do something with it 
 
 For now links I have gathered:
 - https://www.openmediavault.org/
 
+## Remote Access
+Not set up yet but generally use VPN, something like tilescale.
 
 %%
 
