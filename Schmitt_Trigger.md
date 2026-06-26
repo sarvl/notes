@@ -53,6 +53,16 @@ The analysis as above yields down time as
 $$\tau = RC \ln \frac{1}{1 - \beta}$$ 
 And recovery time as 
 $$\tau' = RC \ln \frac{1 + \beta}{1}$$ 
+### BJT Schmitt Trigger
+
+![[Schmitt_Trigger_BJT.png]]
+
+First, assume $V_{in} = 0$, transistor $Q_2$ is on and, for simplicity, assume that it is saturated, then $V_{out} = 0$ and $I_{2} = \frac{V_{CC}}{R_3}$, then $V_{R4} =\frac{V_{CC} R_4}{R_3}$ . To turn on $Q_1$ $V_{in}$ has  to be at least $0.7 + V_{R4}$, this makes rising threshold to be around $0.7 + \frac{V_{CC} R_4}{R_3}$.
+
+Now when $Q_1$ is saturated, 
+
+$$V_{\mathrm {HT} }={\frac {R_{\mathrm {E} }}{R_{\mathrm {E} }+R_{\mathrm {C2} }}}{V_{+}}$$
+$$\displaystyle V_{\mathrm {LT} }={\frac {R_{\mathrm {E} }}{R_{\mathrm {E} }+R_{\mathrm {C1} }}}{V_{+}}$$
 
 %%
 ## TODO
