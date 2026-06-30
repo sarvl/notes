@@ -1,6 +1,6 @@
 #electronics 
 
-Lab power supply is a [[Power_Supply|Power Supply]] designed for lab, it can produce constant [[Current]] and [[Voltage]], and it has protection against short circuit.
+Lab power supply is a [[Power_Supply|Power Supply]] designed for lab, it can produce constant [[Charge|Current]] and [[Voltage]], and it has protection against short circuit.
 
 This document describes design process.
 

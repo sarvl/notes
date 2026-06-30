@@ -8,7 +8,7 @@ Division into such models simplifies implementation of networking devices, each 
 ### OSI
 1. Physical
    Binary Transmission
-   [[Binary|bits]]
+   [[Number_System#Binary|bits]]
    [[Switch]]
 2. Data Link
    Link Control and Medium Access Control, error detection and correction
@@ -37,8 +37,8 @@ Division into such models simplifies implementation of networking devices, each 
 ### TCP/IP
 1. Link (Physical + Data Link)
    Hardware addressing, media access, [[Error_Detection_And_Correction|Error Detection and Correction]]
-   [[Binary|bits]] and frames
-   [[Switch]], [[Bridge]], [[Hub]], Network Interface Card, Wireless Access Point
+   [[Number_System#Binary|bits]] and frames
+   [[Switch]], Bridge, Hub, Network Interface Card, Wireless Access Point
    [[Ethernet]], [[WiFi]]
    
 	Sub-layers

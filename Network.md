@@ -7,7 +7,7 @@ This includes
 - [[Chip_Network|On Chip Network]], in the context of [[Computer_Architecture|Computer Architecture]]
 - [[Board_Network|On Board Network]], in the context of [[Computer_Architecture|Computer Architecture]]
 
-A particularly interesting example is [[Clock_Distribution|Clock Distribution Network]]. Where the signal must arrive uniformly to all components, its Interconnect must be specifically designed for that.
+A particularly interesting example is [[Clock#Clock Distribution|Clock Distribution]]. Where the signal must arrive uniformly to all components, its Interconnect must be specifically designed for that.
 
 This note contains general information regarding design of various structures.
 

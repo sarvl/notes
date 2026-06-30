@@ -2,7 +2,7 @@
 
 RISC I was an early test of [[RISC_And_CISC|RISC]] principles. 
 
-Early results indicated 10x reduction in control unit size, this allowed the processor to have [[Register_File|Rolling Register File]].
+Early results indicated 10x reduction in control unit size, this allowed the processor to have [[Register#Register File#Rolling|Rolling Register File]].
 
 ## Papers
 -  *RISC Assessment: a High Level Language Experiment* by David Patterson, and Richard Piepho

@@ -7,8 +7,8 @@ A separation of [[Computer_Network|Networks]] is very useful for [[Cybersecurity
 ## Devices
 - Network Interface Card
 - Repeater
-- Hub
-- Bridge
+- Hub  - Transmits incoming frames to all other ports
+- Bridge - Essentially switch with two ports
 - [[Switch]]
 
 

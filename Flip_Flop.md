@@ -1,7 +1,7 @@
 #electronics #digital 
 
 
-A Flip Flop is a storage device that stores one [[Binary|Bit]] on [[Clock]] edge (rising or falling), contrary to [[Latch]] which operates on [[Clock]] state.
+A Flip Flop is a storage device that stores one [[Number_System#Binary|Bit]] on [[Clock]] edge (rising or falling), contrary to [[Latch]] which operates on [[Clock]] state.
 
 
 ## Timing

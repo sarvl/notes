@@ -5,7 +5,7 @@
 
 
 ## Structure
-While usually a proof is expressed as a sentence, a proof structure constructed in a way similar to [[Structured_Programming|Structured Programming]] - decomposing it into basic building blocks, each proving a certain [[Logic#Sentence|Sentence]].
+While usually a proof is expressed as a sentence, a proof structure constructed in a way similar to [[Programming_Paradigms#Structured Programming|Structured Programming]] - decomposing it into basic building blocks, each proving a certain [[Logic#Sentence|Sentence]].
 
 For example to prove 
 $$\forall_x P(x) \implies Q(x)$$

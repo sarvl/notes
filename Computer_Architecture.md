@@ -7,7 +7,7 @@ Example objects of interest include
 - [[Graphical_Processing_Unit|Graphical Processing Units]]
 - [[Digital_Signal_Processing|Digital Sound Processors]]
 
-Everything is a number, such number is composed out of individual [[Binary|Bits]]. 
+Everything is a number, such number is composed out of individual [[Number_System#Binary|Bits]]. 
 
 The organization and implementation often mean
 - [[Digital_Electronics|Digital Circuit]] level implementation
@@ -38,14 +38,14 @@ Ultimately, the topic is very broad with many different goals and requirements, 
 
 Instruction is a basic way of interacting within any processor, it is defined by [[Instruction_Set_Architecture|ISA]]. Generally all instructions can conceptually be split into 4 execution stages. These stages can be then used to either create [[Central_Processing_Unit#Multicycle|Multicycle]] design or  to [[Pipelining|Pipeline]] it.
 1. Fetch 
-   Read [[Binary|Bits]] from [[Memory]], change [[Instruction_Pointer|Instruction Pointer]]
+   Read [[Number_System#Binary|Bits]] from [[Memory]], change [[Instruction_Pointer|Instruction Pointer]]
 2. Decode 
    Figure out what has to be done
 3. Execute
    Do what needs to be done 
    [[Arithmetic_Logic_Unit|ALU]], [[Floating_Point_Unit|FPU]], [[Memory]]
 4. Writeback
-   Save results from computation, usually into [[Register_File|Register File]]
+   Save results from computation, usually into [[Register#Register File|Register File]]
 ## Organization
 It is in general impossible to simply classify all different kinds of processors there are, different categories exist based on different goals.
 
@@ -75,8 +75,7 @@ Design can be somewhat separated into two parts - [[Instruction_Set_Architecture
 Small units can be designed directly with [[Boolean_Algebra|Boolean Algebra]] minimization techniques, but this quickly gets out of hand. Designing more complex devices requires using standard functional units:
 - [[Multiplexer]]
 - [[Arithmetic_Logic_Unit|Arithmetic and Logic Unit]]
-- [[Binary_Adder|Adder/Subtractor]]
-- [[Register_File|Register File]]
+- [[Register#Register File|Register File]]
 - [[Memory]]
 - [[Comparator]]
 

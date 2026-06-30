@@ -4,7 +4,7 @@ IP Addresses are used in [[Computer_Network#Reference Models#OSI|Network Layer]]
 
 ## IPv4
 
-IPv4 is a 32-[[Binary|bit]] address, usually divided into 4 octets and represented in decimal, e.g. 192.168.1.16.
+IPv4 is a 32-[[Number_System#Binary|bit]] address, usually divided into 4 octets and represented in decimal, e.g. 192.168.1.16.
 
 A network address is address of a network, the first address in a range. 
 A broadcast address is address which delivers to all computers in a network, the last address in a range.

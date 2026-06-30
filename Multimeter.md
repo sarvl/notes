@@ -8,7 +8,7 @@
 ## Input Protection
 ![[Multimeter_Input-Protection.png]]
 
-Fuses only protect [[Current]] measurement. When [[Current]] passes through [[Resistor]], it generates [[Voltage]], which is then measured and displayed.
+Fuses only protect [[Charge|Current]] measurement. When current passes through [[Resistor]], it generates [[Voltage]], which is then measured and displayed.
 [[Diode]] Bridge is used to get rid of excess current, by clamping the maximum voltage.
 
 PTC Resistor in the top is used as self protecting mechanism, as current through it rises, and [[Temperature]] rises, its resistance increases.  For transients, MOV is used.

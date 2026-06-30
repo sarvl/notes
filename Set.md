@@ -1,37 +1,37 @@
-#math #logic 
+#math #logic  #abstract
 A set is collection of any objects where the order and multiplicity do not matter
 
 
 ## Symbols
 
-| Symbol | Name |
-|:---:|:---:|
-| $$\{\}$$| encloses a list of objects|
-| $$\in$$ | is element of |
-| $$\notin$$ | is not element of |
-| $$\cup$$ | union |
-| $$\cap$$ | intersection |
-| $$\setminus$$ | difference |
-| $$-$$ | difference |
-| $$\subset$$ | proper subset |
-| $$\subseteq$$ | subset |
-| $$'$$ | complement |
-| $$\Delta $$ | symmetric difference |
-| $$[$$ | closed range left |
-| $$]$$ | closed range right |
-| $$($$ | open range left |
-| $$)$$ | open range right |
+|    Symbol     |            Name            |
+| :-----------: | :------------------------: |
+|   $$\{\}$$    | encloses a list of objects |
+|    $$\in$$    |       is element of        |
+|  $$\notin$$   |     is not element of      |
+|   $$\cup$$    |           union            |
+|   $$\cap$$    |        intersection        |
+| $$\setminus$$ |         difference         |
+|     $$-$$     |         difference         |
+|  $$\subset$$  |       proper subset        |
+| $$\subseteq$$ |           subset           |
+|     $$'$$     |         complement         |
+|  $$\Delta $$  |    symmetric difference    |
+|     $$[$$     |     closed range left      |
+|     $$]$$     |     closed range right     |
+|     $$($$     |      open range left       |
+|     $$)$$     |      open range right      |
 
 
-| Symbol | Set |
-|:---:|:---:|
-| $$\varnothing$$ | empty set |
-| $$\mathbb{N}$$| naturals, non-negative integers |
-| $$\mathbb{Z}$$ | [[Integer_Number\|Integers]] |
-| $$\mathbb{Q}$$ | [[Rational_Number\|Rationals]] |
-| $$\mathbb{A}$$ | [[Algebraic_Number\|Algebraics]] |
-| $$\mathbb{R}$$ | [[Real_Number\|Reals]] |
-| $$\mathbb{C}$$ | [[Complex_Number\|Complex]] |
+|     Symbol      |               Set                |
+| :-------------: | :------------------------------: |
+| $$\varnothing$$ |            empty set             |
+| $$\mathbb{N}$$  | naturals, non-negative integers  |
+| $$\mathbb{Z}$$  |   [[Integer_Number\|Integers]]   |
+| $$\mathbb{Q}$$  |  [[Rational_Number\|Rationals]]  |
+| $$\mathbb{A}$$  | [[Algebraic_Number\|Algebraics]] |
+| $$\mathbb{R}$$  |      [[Real_Number\|Reals]]      |
+| $$\mathbb{C}$$  |   [[Complex_Number\|Complex]]    |
 
 ## Defining a Set
 
@@ -48,14 +48,14 @@ The most general but may easily lead to [[Paradox|Paradoxes]], for example `The 
 
 ## Operations
 
-|symbol | name | meaning |
-| :---:| :---: | :---:|
-| $$A \cap B$$ | intersection | set of all elements in *both* $A$ and $B$|
-| $$A \cup B$$ | union | set of all elements in $A$ or $B$|
-| $$A \setminus B$$ | difference | set of all elements in $A$ but not in $B$|
-| $$A - B$$ | difference | set of all elements in $A$ but not in $B$|
-| $$A'$$ | complement | equivalent to $U - A$ where $U$ is universe of discourse |
-| $$A \Delta B$$ | symmetric difference | $A \cup B - A \cap B$|
+|      symbol       |         name         |                         meaning                          |
+| :---------------: | :------------------: | :------------------------------------------------------: |
+|   $$A \cap B$$    |     intersection     |        set of all elements in *both* $A$ and $B$         |
+|   $$A \cup B$$    |        union         |            set of all elements in $A$ or $B$             |
+| $$A \setminus B$$ |      difference      |        set of all elements in $A$ but not in $B$         |
+|     $$A - B$$     |      difference      |        set of all elements in $A$ but not in $B$         |
+|      $$A'$$       |      complement      | equivalent to $U - A$ where $U$ is universe of discourse |
+|  $$A \Delta B$$   | symmetric difference |                  $A \cup B - A \cap B$                   |
 
 ### Laws
 
@@ -125,6 +125,11 @@ in a very similar way, the laws for sets can be derived, see [[Logic#Laws|Logic 
 ## Venn Diagrams
 
 
+## Cartesian Product
+A Cartesian Product $\times$ between two [[Set|Sets]] $A$ and $B$ is defined to return all [[Tuple#Pair|Ordered Pairs]] such that first element is from $A$ and second is from $B$. 
+In other words
+$$ \forall_{a \in A}\forall_{b \in B} (a, b) \in A \times B$$
+
 ## Books
 - *How To Prove It - A structured Approach* by Daniel J. Velleman
 
@@ -133,5 +138,6 @@ in a very similar way, the laws for sets can be derived, see [[Logic#Laws|Logic 
 - ZFC axioms
 - basis for natural numbers
 - visualization
+- applications
 
 #book_htpi_dv 

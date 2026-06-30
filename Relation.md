@@ -1,6 +1,6 @@
 #math #abstract
 
-A relation $R$ is defined to be a subset of [[Cartesian_Product|Cartesian Product]] between [[Set|Sets]] $A$ and $B$.
+A relation $R$ is defined to be a subset of [[Set#Cartesian Product|Cartesian Product]] between [[Set|Sets]] $A$ and $B$.
 $$R \subseteq A \times B$$
 
 ## Properties

@@ -4,7 +4,7 @@ Microprocessor without Interlocked Pipeline Stages is an ISA based on typical RI
 MIPS is a simple, load-store architecture.
 
 ## Interesting Features
-- [[Binary#Overflow|Overflow]] detection built into instructions.
+- [[Number_System#Binary|Overflow]] detection built into instructions.
   Arithmetic instructions have variant [[Trap|Trapping]] on overflow.
 
 ## History

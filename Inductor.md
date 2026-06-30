@@ -14,7 +14,7 @@ An Inductor obeys the equation $V = L \frac{dI}{dt}$
 <img src="./images/Inductor_In-Series.png"><br>
 </div>
 
-As they are in series, they must share [[Current]] so $V_1 = L_1 \frac{dI}{dt}$ and $V_2 = L_2 \frac{dI}{dt}$.
+As they are in series, they must share [[Charge|Current]] so $V_1 = L_1 \frac{dI}{dt}$ and $V_2 = L_2 \frac{dI}{dt}$.
 Then $V = V_1 + V_2 = L_1 \frac{dI}{dt} + L_2 \frac{dI}{dt}$.
 So $V = (L_1 +  L_2) \frac{dI}{dt}$ and so $L_eq = L_1 + L_2$.
 

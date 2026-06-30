@@ -18,7 +18,7 @@ The paper *Instruction Sets and Beyond: Computers, Complexity, and Controversy* 
 - Fixed instruction format
 - More compile time effort
 
-Especially early during research, RISC projects often included different features that were not directly tied up to ISA but rather were a result of less die space used. Despite the criticism, it was actually fair comparison because the entire point of RISC was to free the die resources for features like [[Register_File#Rolling|Rolling Register File]] or [[Cache|Caches]].  Nonetheless, now chip area is usually not a constraint.
+Especially early during research, RISC projects often included different features that were not directly tied up to ISA but rather were a result of less die space used. Despite the criticism, it was actually fair comparison because the entire point of RISC was to free the die resources for features like [[Register#Register File#Rolling|Rolling Register File]] or [[Cache|Caches]].  Nonetheless, now chip area is usually not a constraint.
 
 More recent research suggests that ISA is not significantly relevant for power efficiency. However claims about efficiency of [[x86]] as exemplary of CISC problems are inaccurate, any long lasting ISA by this point must suffer from growth over the years, unless it was specifically designed for it.
 

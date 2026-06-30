@@ -53,7 +53,7 @@ The design can be done with [[Finite_State_Machine|Finite State Machines]].
 3. Create Combinational Logic for each stage
 
 ## Example Circuits
-- [[Binary_Adder|Binary Adder]]
+- [[Arithmetic_Logic_Unit#Binary Adder|Binary Adder]]
 
 
 ## Timing Requirements

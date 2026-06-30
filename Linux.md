@@ -2,6 +2,8 @@
 
 Linus is an [[Operating_System|Operating System]].
 
+
+
 ## Commands
 syntax
 `command options arguments`
@@ -176,6 +178,7 @@ This can be fixed by setting `vm/min_free_kbytes`
 echo "vm.min_free_kbytes=262144" >> /etc/sysctl.conf  
 sysctl -p  
 ```
+
 
 %%
 

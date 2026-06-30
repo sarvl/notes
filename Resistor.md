@@ -2,7 +2,7 @@
 
 A resistor is a passive (consumes power) two [[Electronic_Device#Terminal|Terminal]] [[Electronic_Device|Electronic Device]] representing the concept of [[Resistance]], of which the more generalized version is [[Impedance]]. 
 Typically, "resistor" refers to [[Linearity|Linear]] resistor obeying [[Ohms_Law|Ohm's Law]]  $V = IR$.
-A resistor primary purpose is to limit the [[Current]] or to dissipate [[Power]] (for example in [[Heat|Heaters]])
+A resistor primary purpose is to limit the [[Charge|Current]] or to dissipate [[Power]] (for example in [[Heat|Heaters]])
 
 ## Symbols
 <div class="fig">
@@ -15,7 +15,7 @@ A resistor primary purpose is to limit the [[Current]] or to dissipate [[Power]]
 <img src="./images/Resistor_In-Series.png"><br>
 </div>
 
-As they are in series, they must share [[Current]] so $V_1 = IR_1$ and $V_2 = IR_2$.
+As they are in series, they must share [[Charge|Current]] so $V_1 = IR_1$ and $V_2 = IR_2$.
 Then $V = V_1 + V_2 = IR_1 + IR_2 = I(R_1 + R_2)$
 And so $R_{eq} = R_1 + R_2$.
 
@@ -50,7 +50,7 @@ And so $V = \frac{1}{\frac{1}{R_1} + \frac{1}{R_2}}I$ so $\frac{1}{R_{eq}} = \fr
 ## Types
 ### Function
 - constant value
-- regulated value - [[Potentiometer]]
+- regulated value - [[#Potentiometer|Potentiometer]]
 - semiconductor
 ### Characteristic
 - [[Linearity|Linear]]
@@ -62,6 +62,24 @@ And so $V = \frac{1}{\frac{1}{R_1} + \frac{1}{R_2}}I$ so $\frac{1}{R_{eq}} = \fr
 
 ## Real Resistor Model
 
+
+
+
+## Potentiometer
+A Potentiometer is an adjustable [[Resistor]]
+
+### Symbols
+
+### Construction
+
+Track with relatively high [[Resistance]] is connected by moving [[Conductor]] to another end. By moving the conductor, larger (or smaller) part of the track has to be traversed by [[Charge|Current]], increasing (or decreasing) resistance.
+As the track can be made from any material or with any width,  there is no limit on maximum current or shape of the function, other than [[Monotonic|Monotonically]] non decreasing.
+
+### Application
+For any [[Voltage]] controlled element, can easily create [[Voltage_Divider|Voltage Divider]]
+
+
+%%
 ## TODO
 write about types
 marking example
@@ -69,3 +87,8 @@ example in each function
 describe standardized values
 schematic of real resistor
 application section
+
+for potentiometer:
+symbol
+construction images
+schematics

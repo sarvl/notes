@@ -1,6 +1,6 @@
 #semiconductor #circuit #electronics 
 
-Semiconductor Diode is [[Semiconductor_Device|Semiconductor Device]] implementation of a [[Diode]] as [[Semiconductor#PN-Junction|PN Junction]].
+Semiconductor Diode is [[Semiconductor|Semiconductor]] Device implementation of a [[Diode]] as [[Semiconductor#PN-Junction|PN Junction]].
 
 ## Characteristic
 

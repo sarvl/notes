@@ -1,6 +1,6 @@
 #electronics #analog 
 
-Analog electronics, contrary to [[Digital_Electronics|Digital Electronics]], deal with [[Voltage|Voltages]] or [[Current|Currents]] of continuous value. Even in mostly digital [[Electrical_Circuit|Circuits]] some amount of analog components is necessary - all IO pins have to fundamentally amplify and output, possibly weak, digital signal.
+Analog electronics, contrary to [[Digital_Electronics|Digital Electronics]], deal with [[Voltage|Voltages]] or [[Charge|Currents]] of continuous value. Even in mostly digital [[Electrical_Circuit|Circuits]] some amount of analog components is necessary - all IO pins have to fundamentally amplify and output, possibly weak, digital signal.
 
 
 Examples:

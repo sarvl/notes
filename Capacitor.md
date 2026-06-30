@@ -26,7 +26,7 @@ And so inverses of capacitances add up.
 <img src="./images/Capacitor_In-Parallel.png"><br>
 </div>
 
-As there cannot be [[Voltage]] across a [[Wire]], $V_1 = V_2 = V$ (the actual reference point does not matter).
+As there cannot be [[Voltage]] across a [[Conductor]], $V_1 = V_2 = V$ (the actual reference point does not matter).
 Total [[Charge]] stored on the first capacitor is $Q_1 = C_1 V$ and on the second $Q_2 = C_2 V$.
 Total charge stored on both capacitors is $Q_t = Q_1 + Q_2 = C_1 V + C_2 V = (C_1 + C_2)V$
 Therefore let $C_{eq} = C_1 + C_2$ then $Q_t = C_{eq} V$.
@@ -102,6 +102,9 @@ Smaller capacitors in parallel are often needed  to meet specs.
 - Peak currents
   Less peak currents requirements, each capacitor can have separate trace
 
+## Decoupling Capacitor
+Decoupling Capacitor is a [[Capacitor]] used to smooth out [[Signal]] or [[Power]] delivered, mostly by functioning like [[Analog_Signal_Processing#Low Pass Filter|Low Pass Filter]].
+
 ## Videos
 - [EEVblog 33 - Capacitor Tutorial p1](https://www.youtube.com/watch?v=xlvqUts9H9c)
 - [EEVblog 33 - Capacitor Tutorial p2](https://www.youtube.com/watch?v=TDDoi70cxw0)
@@ -115,3 +118,5 @@ Smaller capacitors in parallel are often needed  to meet specs.
 - write about types, segregate them
 - real model
 - check ceramic capacitor audio generation
+- schematics
+- design considerations

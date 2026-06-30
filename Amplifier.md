@@ -1,6 +1,6 @@
 #electronics 
 
-An amplifier is a circuit component that increases some [[Signal]] quantity, usually[[Power]], [[Voltage]], or [[Current]].
+An amplifier is a circuit component that increases some [[Signal]] quantity, usually[[Power]], [[Voltage]], or [[Charge|Current]].
 
 
 ## Types

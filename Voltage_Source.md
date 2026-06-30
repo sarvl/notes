@@ -1,13 +1,13 @@
 #electronics 
 
-Voltage Source is an abstraction of a device producing constant [[Voltage]], regardless of [[Current]] drawn. It provides [[Power]] to [[Electrical_Circuit|Electrical Circuits]].
+Voltage Source is an abstraction of a device producing constant [[Voltage]], regardless of [[Charge|Current]] drawn. It provides [[Power]] to [[Electrical_Circuit|Electrical Circuits]].
 Real voltage sources can be modeled by adding [[Resistor]] in series - this produces larger voltage drop the larger current is drawn, effectively limiting maximum current - and thus Power.
 
 
 ## Symbols
 
 ## Illegal Configuration
-Two ideal voltage sources, sharing [[Ground]], connected with $0\Omega$ [[Wire]] does not mean anything in regular circuit abstraction (excluding the case of perfect match). With real voltage sources (resistor in series), some current flows from one VS to the other and nothing else happens.
+Two ideal voltage sources, sharing [[Ground]], connected with $0\Omega$ [[Conductor]] does not mean anything in regular circuit abstraction (excluding the case of perfect match). With real voltage sources (resistor in series), some current flows from one VS to the other and nothing else happens.
 In reality, the behavior depends on what these sources represent, eg [[Battery]] may be charged or one of the sources may explode.
 
 

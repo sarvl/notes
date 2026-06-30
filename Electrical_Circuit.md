@@ -4,7 +4,7 @@ Electrical Circuit is a collection of components, usually obeying Lumped Matter 
 
 ## Components
 Most basic components are
-- [[Wire]]
+- [[Conductor]]
 - [[Resistor]]
 - [[Capacitor]]
 - [[Inductor]]
@@ -38,7 +38,7 @@ The conditions for this method are the same as for regular KCL and KVL, but it d
 
 ### Node Analysis
 Based on KVL and KCL, the analysis is
-1. Identify all nodes in a circuit, [[Current]] incoming and outgoing must sum up to 0, otherwise the charge would not be conserved
+1. Identify all nodes in a circuit, [[Charge|Current]] incoming and outgoing must sum up to 0, otherwise the charge would not be conserved
 2. On each branch, replace current with [[Voltage]] over [[Impedance]]
 3. Rewrite the equations from `1.` with `2.`
 

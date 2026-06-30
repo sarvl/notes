@@ -34,7 +34,7 @@ In each equation:
 - $\rho$ is charge density
 - $\epsilon_0$ is Vacuum [[Permittivity]]
 - $\mu_0$ is Magnetic [[Permeability]]
-- $\vec{J}$ is [[Current]] density
+- $\vec{J}$ is [[Charge|Current]] density
 
 For detailed meaning of each equation, check the corresponding article.
 

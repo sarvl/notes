@@ -1,6 +1,6 @@
 #electronics 
 
-Electronics is a discipline applying [[Physics]] to manipulate [[Electron|Electrons]], specifically via [[Semiconductor_Device|Semiconductor Devices]] - [[Diode]] and [[Transistor]].
+Electronics is a discipline applying [[Physics]] to manipulate [[Electron|Electrons]], specifically via [[Semiconductor|Semiconductor]] Devices - [[Diode]] and [[Transistor]].
 
 
 ## Types

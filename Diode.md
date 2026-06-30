@@ -23,7 +23,7 @@ $$g_d = \frac{di_D}{dv_D} = \frac{d}{dv_D} I_S\exp(v_D/V_T) = \frac{I_S\exp(v_D/
 - [[Semiconductor_Diode#Light_Emission|Light Emitting Diode (LED)]]
 
 ## Implementations
-- [[Tube_Diode|Tube Diode]]
+- Tube Diode (with [[Vacuum_Tube|Vacuum Tubes]])
 - [[Semiconductor_Diode|Semiconductor Diode]]
 
 ## TODO
