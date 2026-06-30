@@ -36,7 +36,7 @@ Controls its voltage drop.
 ### Basic Regulator
 ![[Voltage_Regulator_Basic_Series.png]]
 
-[[Semiconductor_Diode|Zener Diode]] sets reference voltage, as [[BJT|BJTs]] have around $0.7$ voltage drop at base-emitter junction, the output voltage is $V_{dz} - 0.7$. In reality, this setup does depend on load current.
+[[Semiconductor_Diode|Zener Diode]] sets reference voltage, as [[Transistor#BJT|BJTs]] have around $0.7$ voltage drop at base-emitter junction, the output voltage is $V_{dz} - 0.7$. In reality, this setup does depend on load current.
 
 ![[Voltage_Regulator_Basic-Series-Regulator-Example.png]]
 

@@ -31,8 +31,6 @@ Differentiating we get $\frac{dI}{dt} = \left(\frac{1}{L_1} + \frac{1}{L_2}\righ
 And finally $V = \frac{1}{\frac{1}{L_1} + \frac{1}{L_2}} \frac{dI}{dt}$ so $\frac{1}{L_{eq}} = \frac{1}{L_1} + \frac{1}{L_2}$ 
 
 ## Applications
-- [[Analog_Integrator|Analog Integrator]]
-- [[Analog_DIfferentiator|Analog Differentiator]]
 - [[Analog_Signal_Processing|Analog Signal Processing]]
 
 ## TODO

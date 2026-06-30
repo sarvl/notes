@@ -1,6 +1,6 @@
 #material #physics #semiconductor 
 
-Semiconductor material is material which [[Resistance#Resistivity|Resistivity]] is between [[Insulator]] and [[Conductor]] - between about $10^{-6}$ to $10^6$. This resistivity is heavily dependent on [[Temperature]], [[Light]], or Dopants. Simple semiconductor materials are composed out of [[Element|Elements]] found in 4th group of [[Periodic_Table|Periodic Table]] (eg [[Silicon]] while Complex ones are formed from 3rd and 5th group (eg [[Gallium]]-[[Arsenic]]).
+Semiconductor material is material which [[Resistance#Resistivity|Resistivity]] is between [[Insulator]] and [[Conductor]] - between about $10^{-6}$ to $10^6$. This resistivity is heavily dependent on [[Temperature]], [[Light]], or Dopants. Simple semiconductor materials are composed out of [[Atom|Elements]] found in 4th group of Periodic Table (eg Silicon while Complex ones are formed from 3rd and 5th group (eg Gallium-Arsenic).
 
 
 ## Theory of Operation

@@ -1,6 +1,6 @@
 #operating_systems 
 
-Linus is an [[Operating_System|Operating System]].
+Linux is an [[Operating_System|Operating System]].
 
 
 

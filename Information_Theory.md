@@ -31,6 +31,7 @@ Fully described by $M \times N$ matrix of probabilities of transition $X[i] \to 
 ### Binary Symmetric Channel
 A special case of [[Information_Theory#Transmission Channels#Discrete Memory-Less Channel|Discrete Memory-Less Channel]] where $X = Y = \{0; 1\}$ and $P(0|1) = P(1|0) = p_{err}$
 
+%%
  ## TODO
 - organize
 - images

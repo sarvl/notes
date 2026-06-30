@@ -56,9 +56,9 @@ And so $V = \frac{1}{\frac{1}{R_1} + \frac{1}{R_2}}I$ so $\frac{1}{R_{eq}} = \fr
 - [[Linearity|Linear]]
 - non-Linear
 ## Construction
-- [[Wired_Resistor|Wired Resistor]]
-- [[Layered_Resistor|Layered Resistor]]
-- [[Bulk_Resistor|Bulk Resistor]]
+- Wired Resistor
+- Layered Resistor
+- Bulk Resistor
 
 ## Real Resistor Model
 

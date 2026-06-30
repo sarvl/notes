@@ -1,11 +1,11 @@
 #electronics #transistor #digital #analog
 
-A transistor is an electrically controlled [[Current_Source|Current Source]]. A transistor is a backbone of modern [[Processor|Processors]], composed in massive quantities on [[Integrated_Circuit|Integrated Circuits]]. Transistor can be thought of as a [[Electrical_Switch|Electrical Switch]] or as an [[Amplifier]], depending on the usecase.
+A transistor is an electrically controlled Current Source. A transistor is a backbone of modern [[Processor|Processors]], composed in massive quantities on [[Integrated_Circuit|Integrated Circuits]]. Transistor can be thought of as a Electrical Switch or as an [[Amplifier]], depending on the usecase.
 
 There are 3 main types of transistors
-- [[JFET]] 
-- [[BJT]]
-- [[MOSFET]]  
+- JFET 
+- BJT
+- MOSFET  
 
 all three with slightly different behavior and construction, but with the same general idea.
 

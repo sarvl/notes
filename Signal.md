@@ -65,7 +65,7 @@ Destination <- Source encoder <- Channel Decoder <-  DeModulator
 ## Encoding
 Encoding is a way to transform information from one form to another. 
 
-- [[Cryptography]]
+- [[Encryption]]
 - [[Compression]]
 - [[Error_Detection_And_Correction|Error Detection and Correction]]
 

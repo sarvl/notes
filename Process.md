@@ -1,6 +1,6 @@
 #operating_systems 
 
-Process is an instance of computer program that is currently being executed. It contains the code and its data. Process memory can be divided into: [[Stack]], [[Heap]], data, and text  (source). Each process is defined by Process Control Block which contains snapshot of the execution environment, used when switching contexts in [[Operating_System|Operating Systems]]. It is possible to limit number of allowed instances to one.cu
+Process is an instance of computer program that is currently being executed. It contains the code and its data. Process memory can be divided into: [[Data_Structures#Stack|Stack]], [[Data_Structures#Heap|Heap]], data, and text  (source). Each process is defined by Process Control Block which contains snapshot of the execution environment, used when switching contexts in [[Operating_System|Operating Systems]]. It is possible to limit number of allowed instances to one.cu
 
 
 A process can be in one of several states:

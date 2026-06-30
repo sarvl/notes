@@ -23,6 +23,6 @@ The OS uses [[Computer_Storage#Non Volatile|Non-volatile Storage]] to store [[Pr
 
 In the case of simple OS supporting only one Program at once, the  OS becomes essentially set of standard libraries. [[Multitasking|Multitasking]] is what introduces most interesting concepts.
 
-Each OS requires some interface, most interfaces can  be categorized as  [[Graphical_User_Interface|GUI]] or [[Command_Line_Interface|CLI]].
+Each OS requires some interface, most interfaces can  be categorized as [[UI#GUI|GUI]] or [[UI#CLI|CLI]].
 
 Operating systems often maintain cache of copies, for example on access files are copied from storage to memory. 

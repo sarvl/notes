@@ -5,7 +5,7 @@ MIPS is a simple, load-store architecture.
 
 ## Interesting Features
 - [[Number_System#Binary|Overflow]] detection built into instructions.
-  Arithmetic instructions have variant [[Trap|Trapping]] on overflow.
+  Arithmetic instructions have variant [[Interrupt|Trapping]] on overflow.
 
 ## History
 

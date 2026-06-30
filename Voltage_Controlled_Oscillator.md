@@ -1,6 +1,6 @@
 #analog #electronics 
 
-VCO is a type of [[Oscillator]] that has frequency controlled by voltage.
+VCO is a type of [[Multivibrators|Oscillator]] that has frequency controlled by voltage.
 
 Most VCOs have varactor [[Diode|Diodes]].
 

@@ -1,6 +1,6 @@
 
 ## Pumped Water
-Two water reservoirs at different elevation, pushing from lower to higher increases [[Energy#Potential|Potential Energy]] from [[Gravity]]. s
+Two water reservoirs at different elevation, pushing from lower to higher increases [[Energy#Potential|Potential Energy]] from [[Gravity]]. 
 
 ## Heat
 Energy used to heat (or cool) houses, can be done during cheapest hours, and then stored over peak hours.

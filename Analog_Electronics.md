@@ -7,12 +7,11 @@ Examples:
 - [[Opamp]]
 - [[Rectifier]]
 - [[PWL]]
-- [[Oscillator]]
 - [[Modulation|Modulators and Demodulators]]
-- [[Multivibrator]]
+- [[Multivibrators]]
 - [[Phase-Locked_Loop|Phase-Locked Loop]]
-- [[Power_Amplifier|Power Amplifier]]
-- [[Power_Supply|Power Supply]]
+- [[Amplifier|Amplifiers]]
+- [[Power Supply]]
 - [[Voltage_Regulator|Voltage Regulator]]
 
 

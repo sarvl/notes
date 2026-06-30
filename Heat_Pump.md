@@ -1,6 +1,6 @@
 #science 
 
-Heat pumps are essentially [[Air_Conditioner|Air Conditioner]] running in reverse.
+Heat pumps are essentially Air Conditioners running in reverse.
 
 A refrigerator needs to overcome the process of [[Entropy]]. A heat pump is used to displace heat from one spot to another, even from lower temperature one to higher. They generally work by using refrigerants which can have their [[Matter_State|Boiling Point]] easily modified by varying [[Pressure]]. The process of changing phases takes a lot of energy, the energy which does not affect the temperature of the substance. By forcing refrigerant to vaporize or condense, energy can be transformed from one place to another.
 

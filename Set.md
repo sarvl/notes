@@ -23,15 +23,15 @@ A set is collection of any objects where the order and multiplicity do not matte
 |     $$)$$     |      open range right      |
 
 
-|     Symbol      |               Set                |
-| :-------------: | :------------------------------: |
-| $$\varnothing$$ |            empty set             |
-| $$\mathbb{N}$$  | naturals, non-negative integers  |
-| $$\mathbb{Z}$$  |   [[Integer_Number\|Integers]]   |
-| $$\mathbb{Q}$$  |  [[Rational_Number\|Rationals]]  |
-| $$\mathbb{A}$$  | [[Algebraic_Number\|Algebraics]] |
-| $$\mathbb{R}$$  |      [[Real_Number\|Reals]]      |
-| $$\mathbb{C}$$  |   [[Complex_Number\|Complex]]    |
+|     Symbol      |                Set                |
+| :-------------: | :-------------------------------: |
+| $$\varnothing$$ |             empty set             |
+| $$\mathbb{N}$$  |  naturals, non-negative integers  |
+| $$\mathbb{Z}$$  |   [[Numbers#Integer\|Integers]]   |
+| $$\mathbb{Q}$$  |  [[Numbers#Rational\|Rationals]]  |
+| $$\mathbb{A}$$  | [[Numbers#Algebraic\|Algebraics]] |
+| $$\mathbb{R}$$  |      [[Numbers#Real\|Reals]]      |
+| $$\mathbb{C}$$  |   [[Numbers#Complex\|Complex]]    |
 
 ## Defining a Set
 
@@ -42,9 +42,9 @@ When the pattern of more elements is clear, for example $\{1;2;3;\ldots\}$
 - Set Builder Notation
 Like ellipsis but with explicit formula, more flexible, for example $\{n \vert n \mod 2 = 0\}$ is a set of all even integers
 - Range
-For some [[Real_Number|Real Numbers]], shorthand notation can be used: $[a; b] = \{x | a \leq x \leq b\}$ and $(a; b) = \{x | a < x < b\}$
+For some [[Numbers#Real|Real Numbers]], shorthand notation can be used: $[a; b] = \{x | a \leq x \leq b\}$ and $(a; b) = \{x | a < x < b\}$
 - Words
-The most general but may easily lead to [[Paradox|Paradoxes]], for example `The set of all sets that do not contain themselves`
+The most general but may easily lead to [[Mathematics#Paradox|Paradoxes]], for example `The set of all sets that do not contain themselves`
 
 ## Operations
 

@@ -1,6 +1,6 @@
 #electronics #circuit  
 
-As [[Electronic_Device]] diode is device that conducts current in only one direction. Most commonly it is created with [[Semiconductor]]. 
+As [[Electronics|Electronic]] device, diode is device that conducts current in only one direction. Most commonly it is created with [[Semiconductor]]. 
 
 ## Ideal Diode
 

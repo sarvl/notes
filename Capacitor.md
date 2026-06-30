@@ -39,13 +39,10 @@ And so capacitances in parallel add up.
 - [[Capacitance]]
 
 ## Applications
-- [[Analog_Integrator|Analog Integrator]]
-- [[Analog_DIfferentiator|Analog Differentiator]]
-- [[Decoupling_Capacitor|Decoupling Capacitor]]
-- [[ACDC_Converter|AC-DC Converters]]
-- [[DCAC_Converter|DC-AC Converters]]
-- [[Energy]] storage
 - [[Analog_Signal_Processing|Analog Signal Processing]]
+- Decoupling 
+- [[Power_Supply|Power Converters]]
+- [[Energy]] storage
 
 ## Types
 In general, any shape is possible, but some are more used than the others.
